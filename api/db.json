@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1f84341a-fc69-4d1d-8678-d105eaa10f5a",
+    "author": "Anonymous",
+    "message": "Happy",
+    "image": "images/2d89633f-f502-4712-92bf-8f2034bf5e6b.jpg"
+  },
+  {
+    "id": "4e73cc9b-aa52-416a-bdf7-c5d2a8d58aa0",
+    "author": "Natasha",
+    "message": "Not happy",
+    "image": "images/d317ad85-68bd-4abe-bf95-f5447d7226df.jpg"
+  },
+  {
+    "id": "c2234617-00e7-4395-9483-640e000a1752",
+    "author": "Anonymous",
+    "message": "Smile face",
+    "image": "images/f28f91ec-d983-44d7-a8a7-13ff765a7c31.jpg"
+  },
+  {
+    "id": "a2c837a0-cf16-4d52-9f4e-b983f872c31e",
+    "author": "Anonymous",
+    "message": "Anonymous message",
+    "image": null
+  },
+  {
+    "id": "02e12b5c-5aaf-48f7-abc3-63dd320829ce",
+    "author": "Natasha",
+    "message": "Just a message",
+    "image": null
+  }
+]
