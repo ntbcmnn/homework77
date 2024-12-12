@@ -78,6 +78,7 @@ const Form: React.FC<Props> = ({onSubmit}) => {
             name="image"
             label="Image"
             onGetFile={onFileChange}
+            file={form.image}
           />
         </div>
 
