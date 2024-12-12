@@ -1,12 +1,13 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 interface Props {
   name: string;
   label: string;
   onGetFile: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  file: File | null;
 }
 
-const FileInput: React.FC<Props> = ({name, label, onGetFile}) => {
+const FileInput: React.FC<Props> = ({name, label, onGetFile, file}) => {
   const inputRef = useRef<HTMLInputElement>(null);
   const [fileName, setFileName] = useState('');
 
@@ -23,6 +24,10 @@ const FileInput: React.FC<Props> = ({name, label, onGetFile}) => {
 
     onGetFile(e);
   };
+
+  useEffect(() => {
+    if (!file) setFileName('');
+  })
 
   return (
     <>
