@@ -27,7 +27,7 @@ const FileInput: React.FC<Props> = ({name, label, onGetFile, file}) => {
 
   useEffect(() => {
     if (!file) setFileName('');
-  })
+  });
 
   return (
     <>
